@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudTasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>☁️ CloudTasks</h1>
+            <p class="subtitle">Gerenciamento de tarefas na Google Cloud</p>
+            <form id="taskForm">
+                <label>Título</label>
+                <input type="text" id="title" required>
+                <label>Descrição</label>
+                <textarea id="description" required></textarea>
+                <label>Responsável</label>
+                <input type="text" id="owner" required>
+                <label>Status</label>
+                <select id="status">
+                    <option>PENDENTE</option>
+                    <option>EM_ANDAMENTO</option>
+                    <option>FINALIZADA</option>
+                </select>
+                <button type="submit">Salvar tarefa</button>
+            </form>
+            <div id="message"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
