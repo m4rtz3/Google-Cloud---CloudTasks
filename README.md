@@ -1,7 +1,7 @@
 # AV-03-ICL-GoogleCloud — CloudTasks
 ## Roteiro de Instruções Executadas no Google Cloud
 
-**Aluno:** Marty Menezes  
+**Aluna:** Marty
 **Projeto:** cloudtasks-marty  
 **Data:** 27/05/2026
 
